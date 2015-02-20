@@ -4,32 +4,132 @@
 	<meta charset="UTF-8">
 	<title>Airbnb</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="jumbotron">
-    <div class="top-nav">
-      <div class="col-md-2 logo"><img src="img/logo.png" alt=""></div>
-      <div class="col-md-7 empty-column-top"></div> 
-      <div class="col-md-1 sign-up">Sign Up</div>
-      <div class="col-md-1 log-in">Log In</div>
-      <button type="list-space" class="col-md-1 list-space"></button>
-    </div>
-      <div class="message">WELCOME HOME</div>
-      <div class="sub-message">Rent unique places to stay from local hosts in 190+ countries.</div>
-      </div>
-    <div class="search-element">
-      <button type="submit-search">Search</button>
-      <textarea name="where" placeholder="Where do you want to go?"></textarea>
-      <textarea name="check-in" class="check-in"></textarea>
-      <textarea name="check-out" placeholder="checkout"></textarea>
-      <input type="dropdown" name="" value=""> 
-    </div>
-  </div>
+	<div class="jumbotron">
+	  <div class="top-nav">
+	    <div class="col-md-2 logo"><img src="img/logo.png" alt=""></div>
+	    <div class="col-md-7 empty-column-top"></div> 
+	    <div class="col-md-1 sign-up">Sign Up</div>
+	    <div class="col-md-1 log-in">Log In</div>
+	    <div class="col-md-1 log-in list-space">List Space</div>
 
-  <div class="jumbotron-lower">
-    <div class="message-lower">BELONG ANYWHERE</div>
-    <div class="sub-message-lower">See how Airbnb hosts create a sense of belonging around the world</div>
-  </div>
+	  </div>
+	    <div class="message">WELCOME HOME</div>
+	    <div class="sub-message">Rent unique places to stay from local hosts in 190+ countries.</div>
+	    </div>
+	  <div class="search-element">
+	  	<div class="search-wrap">
+		    <div class="col-md-2"></div>
+		    <div class="col-md-5 where-you-go">Where do you want to go?</div>
+		    <div class="col-md-1"></div>
+		    <div class="col-md-1 search-this">Search</div>
+		    <div class="col-md-1"></div>
+	  	</div>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 travel-header">
+			<h1 class="travel-header-text">Most Popular in United States</h1>
+			<h3 class="travel-subheader-text">Get inspired by destinations our travelers love</h3>
+		</div>
+	</div>
+	<div class="row cities-wrapper">
+		<div class="col-md-4 cities new-york">
+			<h1 class="cityh1">New York</h1>
+		</div>
+		<div class="col-md-4 cities los-angeles">
+			<h1 class="cityh1">Los Angeles</h1>
+		</div>
+
+		<div class="col-md-4 cities chicago">
+			<h1 class="cityh1">Chicago</h1>
+		</div>
+	</div>
+	<div class="row button-thingy">
+		<div class="col-md-4"></div>
+		<div class="col-md-4 see-destinations">
+			See All Destinations
+		</div>	
+		<div class="col-md-4"></div>
+	</div>
+
+	<div class="jumbotron jumbo-bottom">
+		<h1>Belong Anywhere</h1>
+		<h2>See how Airbnb hosts create a sense of belonging around the world</h2>
+	</div>
+
+	<!-- kalev -->
+	<div class="community row-space-top-8 row-space-8">
+	  <div class="community-intro">
+	    <h2 class="community-header">Not Airbnb's Community</h2>
+	  </div>
+	  <ul class="community-list">
+	    <li class="col-lg-3">
+	      <a href="https://www.airbnb.com/one-less-stranger">
+	      <div class="stranger-image">
+	        <div class="stranger-blank-space"></div>
+	        <div class="stranger-card">
+	          <div class="stranger-title">
+	            <h3>#OneMoreStranger</h3>
+	            We live in a world where we believe that there should be more strangers.
+	          </div>
+	        </div>
+	      </div>
+	      </a>
+	    </li>
+	    <li class="col-lg-3">
+	      <a href="https://www.airbnb.com/help/getting-started/how-to-travel">
+	      <div class="traveling-image">
+	        <div class="traveling-blank-space"></div>
+	        <div class="traveling-card">
+	          <div class="traveling-title">
+	            <h2>Just a Couple of Strangers</h2>
+	            <p>Just a couple of strangers being weird in the woods</p>
+	            <p>Learn how to be another stranger on airbnb</p>
+	          </div>
+	        </div>
+	      </div>
+	      </a>
+	    </li>
+	    <li class="col-lg-3">
+	      <a href="https://www.airbnb.com/map">
+	      <div class="world-image">
+	        <div class="world-card">
+	          <div class="world-title">
+	            <h2>A World of Strangers</h2>
+	          </div>
+	          <div class="world-blank-space"></div>
+	          <p class="world-text">On Thursday February 19, 2015, more than a dozen strangers participated in a hackathon at Hack Reactor.</p>
+	          <p class="world-text">See who is here tonight.</p>
+	        </div>
+	      </div>
+	      </a>
+	    </li>
+	    <li class="col-lg-3">
+	      <a href="https://www.airbnb.com/help/getting-started/how-to-host">
+	      <div class="woman-image">
+	        <div class="woman-blank-space"></div>
+	        <div class="woman-card">
+	          <div class="woman-title">
+	            <h2>I Don't Know Who This Is</h2>
+	            <p class="woman-text">Does anyone know who this is?</p>
+	            <p class="woman-text">No Seriously.</p>
+	            <p class="woman-text">Anybody?</p>
+	          </div>
+	        </div>
+	      </div>
+	      </a>
+	    </li>
+	  </ul>
+	</div>
+	<div class="row foot">
+		<div class="col-md-12">
+			<h1>This is a footer</h1>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,3 +1,63 @@
+
+.body {
+	color: #565a5c;
+}
+
+.travel-header {
+	text-align: center;
+}
+
+.travel-subheader-text {
+	font-size: 15px;
+}
+
+.cities-wrapper {
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.cities {
+	color: white;
+	text-align: center;
+	height: 390px;
+	margin: 0 20px;
+	width: 381px;
+}
+
+.cityh1 {
+	margin-top: 160px;
+}
+.new-york {
+	background-image: url('https://a1.muscache.com/ic/discover/84?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=675px:675px');
+}
+
+.los-angeles {
+	background-image: url('https://a1.muscache.com/ic/discover/2892?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=675px:675px');
+}
+
+.chicago {
+	background-image: url('https://a2.muscache.com/ic/discover/182?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=675px:675px');
+}
+
+.see-destinations, .where-you-go, .search-this {
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 12px;
+	font-weight: bold;
+}
+
+
+.jumbo-bottom {
+	text-align: center;
+}
+
+.button-thingy {
+	padding-bottom: 20px;
+}
+
 .navbar div {
   text-align: top
   text: white;
@@ -5,7 +65,7 @@
 }
 
 .jumbotron {
-  background-image: url('img/DeathtoStock_NYC1.jpg');
+  background-image: url('img/asdf.jpg');
   height: 500px;
   position:relative;
   margin-bottom: 0;
@@ -13,15 +73,17 @@
 
 
 .search-element {
+  padding-top: 25px;
   height: 100px;
   background-color: black;
+  opacity: .9;
 }
 
 .message {
   font-size: 100px;
   color: white;
   text-align: center;
-  padding-top: 50px
+  padding-top: 130px
 }
 
 .sub-message {
@@ -35,7 +97,7 @@
 }
 
 .jumbotron-lower {
-  background-image: url('img/DeathtoStock_NYC1.jpg');
+  background-image: url('img/musicplayerbackgroundls.jpg');
   height: 500px;
   position:relative;
 }
@@ -52,4 +114,148 @@
   font-size: 20px;
   color: white;
   text-align: center;
+}
+
+.where-you-go, .search-this {
+	color: white;
+	border-color: white;
+}
+
+.community-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.community-list {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+.stranger-image {
+    background-image: url(https://a2.muscache.com/airbnb/static/homepages/ols-df529f5834fc47471ac0ae828583e250.jpg);
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.stranger-blank-space {
+    height: 300px;
+}
+
+.stranger-card {
+    vertical-align: bottom;
+    padding: 40px;
+    background-color: #ffaa91;
+}
+
+.stranger-title {
+    text-align: center;
+    color: white;
+}
+
+.traveling-image {
+    background-image: url(https://a0.muscache.com/airbnb/static/homepages/traveling-73ba2942dae0a033a2b14388527214c4.jpg);
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.traveling-blank-space {
+    height: 250px;
+}
+
+.traveling-card {
+    vertical-align: bottom;
+    padding: 40px;
+}
+
+.traveling-title {
+    text-align: center;
+    color: white;
+}
+
+.world-image {
+    background-image: url(https://a0.muscache.com/airbnb/static/homepages/ols-map-2114142d78be39e4c3f42b3b579867f5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.world-blank-space {
+    height: 260px;
+}
+
+.world-card {
+    padding: 1px;
+}
+
+.world-title {
+    text-align: center;
+    color: white;
+}
+
+.world-text {
+    text-align: center;
+    color: white;
+}
+
+.woman-image {
+    background-image: url(https://a0.muscache.com/airbnb/static/homepages/hosting-8fec1d4e5d1dde4d267f6480654346f2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.woman-blank-space {
+    height: 300px;
+}
+
+.woman-card {
+    padding: 1px;
+}
+
+.woman-title {
+    text-align: center;
+    color: white;
+}
+
+.woman-text {
+    text-align: center;
+    color: white;
+}
+
+.jumbo-bottom {
+	color: white;
+}
+
+.sign-up {
+  color: white;
+}
+
+.log-in {
+  color: white;
+}
+
+.jumbo-bottom {
+  background-image: url('img/musicplayerbackground.jpg');
+}
+
+.jumbo-bottom h1 {
+  margin-top: 145px;
+}
+
+.list-space {
+  background-color: slategrey;
+  border-radius: 3px;
+  padding: 2px;
+  text-align: center;
+}
+
+.foot {
+  text-align: center;
+  color: #333333;
 }
