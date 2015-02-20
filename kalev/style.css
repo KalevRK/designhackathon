@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-.blank-space {
+.stranger-blank-space {
     height: 300px;
 }
 
@@ -28,6 +28,79 @@
 }
 
 .stranger-title {
+    text-align: center;
+    color: white;
+}
+
+.traveling-image {
+    background-image: url(https://a0.muscache.com/airbnb/static/homepages/traveling-73ba2942dae0a033a2b14388527214c4.jpg);
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.traveling-blank-space {
+    height: 250px;
+}
+
+.traveling-card {
+    vertical-align: bottom;
+    padding: 40px;
+}
+
+.traveling-title {
+    text-align: center;
+    color: white;
+}
+
+.world-image {
+    background-image: url(https://a0.muscache.com/airbnb/static/homepages/ols-map-2114142d78be39e4c3f42b3b579867f5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.world-blank-space {
+    height: 260px;
+}
+
+.world-card {
+    padding: 1px;
+}
+
+.world-title {
+    text-align: center;
+    color: white;
+}
+
+.world-text {
+    text-align: center;
+    color: white;
+}
+
+.woman-image {
+    background-image: url(https://a0.muscache.com/airbnb/static/homepages/hosting-8fec1d4e5d1dde4d267f6480654346f2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.woman-blank-space {
+    height: 300px;
+}
+
+.woman-card {
+    padding: 1px;
+}
+
+.woman-title {
+    text-align: center;
+    color: white;
+}
+
+.woman-text {
     text-align: center;
     color: white;
 }
