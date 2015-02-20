@@ -1,0 +1,55 @@
+.navbar div {
+  text-align: top
+  text: white;
+
+}
+
+.jumbotron {
+  background-image: url('img/DeathtoStock_NYC1.jpg');
+  height: 500px;
+  position:relative;
+  margin-bottom: 0;
+}
+
+
+.search-element {
+  height: 100px;
+  background-color: black;
+}
+
+.message {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 50px
+}
+
+.sub-message {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  align-text: center;
+}
+
+.jumbotron-lower {
+  background-image: url('img/DeathtoStock_NYC1.jpg');
+  height: 500px;
+  position:relative;
+}
+
+
+.message-lower {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 50px
+}
+
+.sub-message-lower {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
