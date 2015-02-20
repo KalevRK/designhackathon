@@ -1,0 +1,33 @@
+.community-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.community-list {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+.stranger-image {
+    background-image: url(https://a2.muscache.com/airbnb/static/homepages/ols-df529f5834fc47471ac0ae828583e250.jpg);
+    background-size: cover;
+    height: 492px;
+    width: 100%;
+}
+
+.blank-space {
+    height: 300px;
+}
+
+.stranger-card {
+    vertical-align: bottom;
+    padding: 40px;
+    background-color: #ffaa91;
+}
+
+.stranger-title {
+    text-align: center;
+    color: white;
+}
